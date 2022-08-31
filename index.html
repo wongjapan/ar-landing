@@ -97,6 +97,9 @@
         border: 0px;
         font-size: 15px;
       }
+      button:hover {
+        cursor: pointer;
+      }
       .footer-bg {
         width: 100%;
         padding: 50px 0 0 0;
@@ -164,6 +167,11 @@
         }
       }
     </style>
+    <script>
+      function openRba() {
+        location.href = "https://roburna.com/";
+      }
+    </script>
   </head>
 
   <body>
@@ -182,9 +190,13 @@
       <div class="middle-bg-cont">
         <h3>Want exclusive early access to NFT collections and IDOs?</h3>
         <p>Sign up to the waiting list by September 30!</p>
-        <button type="button"><img src="plus.png" /> Sign up</button>
+        <button type="button" href="https://roburna.com" onclick="openRba()">
+          <img src="plus.png" /> Sign up
+        </button>
       </div>
-      <a href=""><img class="footer-logo" src="footer-logo.png" /> </a>
+      <a href="https://roburna.com"
+        ><img class="footer-logo" src="footer-logo.png" />
+      </a>
       <img class="footer-bg" src="footer-bg.png" />
     </div>
   </body>
